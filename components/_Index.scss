@@ -1,0 +1,101 @@
+// Gridsss 
+.section{
+    width: 100%; 
+    margin-bottom: 125px;
+} 
+.grid{
+    padding: 1rem ; 
+    min-height: 500px;
+    display: grid;
+    column-gap: 1rem;
+    row-gap: 1rem;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas:
+    "ele1 ele2 ele3"
+    "ele1 ele4 ele5";
+}
+.grid__hijo{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    position: relative;
+}
+.grid__titulo{
+    position:absolute; 
+    align-items: center; 
+    bottom: 0%;
+    right: 0%;
+    background-color: rgba(0,0,0,0.4);
+    padding: 0.5rem 1rem;
+    color: #fff;
+    text-decoration: none; 
+    right: 0%;
+}
+.grid__hijo--1{
+    grid-area: ele1;  
+}  
+.imagecover{
+    object-fit: cover;
+}
+.grid__hijo--2{
+    grid-area: ele2;
+}
+.grid__hijo--3{ 
+
+    grid-area: ele3;
+}
+.grid__hijo--4{ 
+
+    grid-area: ele4;
+}
+.grid__hijo--5{ 
+
+    grid-area: ele5
+} 
+
+
+
+
+// videos  
+.flex{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content:stretch; 
+    align-items: center; 
+    margin-bottom: 125px;
+} 
+.flex__hijo--1{
+    margin: 1rem; 
+    border-radius: 10px;
+}   
+
+
+
+// formularioooo 
+.CuadroFormu{
+    border: 5px; 
+    border-color: #cdda60;
+    border-radius: 5px;
+    padding: 10px 10px 10px 10px; 
+    width: 600px;
+    border-style: double; 
+    margin: auto;
+} 
+.casillaform{
+    border-radius: 5px;
+    border: 2px;
+} 
+.separacion{ 
+    border-radius: 5px;
+    margin: 10px 10px 5px 10px 
+}
+.centro{
+    text-align: center;
+    font-size: 25px;
+} 
+.centro__1{
+    text-align: center;
+}

@@ -1,0 +1,31 @@
+.divtextosculturaflex{
+    display: flex;
+    flex-direction: column;
+} 
+.divtextoyparrafo{
+    display: flex ; 
+    flex-direction: row; 
+    height: 400px;
+    width: 800px; 
+    align-content: center; 
+    align-items: center; 
+    padding: 10px;  
+    justify-content: center;
+} 
+.imageninformativa{ 
+    
+}  
+.imageninformativa__historia{ 
+width: 400px;
+height: 350px;
+border-radius: 10px;
+}
+
+.parrafoinformativo{  
+    margin-top: 0%; 
+    padding-left: 10px;
+}
+.titulostextos{
+    text-align: center;
+    font-size: 20px; 
+}

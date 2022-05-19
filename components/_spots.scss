@@ -1,0 +1,42 @@
+h1{
+    text-align: center;
+    margin-bottom: 25px; 
+    font-size: 30px;
+}
+.bloques{
+    width: 100%;
+    justify-content: center; 
+    align-items: center;
+    align-content: center; 
+    display: flex;
+    flex-direction: column; 
+    padding: 10px; 
+    margin-top: 25px; 
+    border-top: 3px; 
+    border-bottom: 3px;
+    border-left: 0px;
+    border-right: 0px;
+    border-color: #cdda60; 
+    border-style:inset;
+    border-radius: 20px;
+}
+.imagenytexto{
+    display: flex;
+    flex-direction: row; 
+
+} 
+.titulospots{
+    font-size: 25px; 
+    text-align: center;
+}
+.imagenspots{
+    height: 300px ;
+    width: 300px; 
+    object-fit: cover; 
+    border-radius: 100%;
+} 
+.parrafospots{
+    padding: 10px;
+    text-align: center; 
+    width: 500px;
+} 

@@ -1,0 +1,88 @@
+body{
+    font-family:'Roboto', sans-serif; 
+    color: #cdda60; 
+    background-color: black; 
+    margin: auto; 
+    max-width: 1400px;
+} 
+.header{
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    z-index: 11; 
+    background-color: black; 
+    width: 100%; 
+    border-bottom:5px, #cdda60; 
+    height: 120px;
+} 
+.logo{
+    margin: 10px;
+}
+.parkourArgentina{
+    margin-left: 15px; 
+    margin-top: 15px; 
+    font-size: 35px;
+}
+.nav{ 
+    margin-left: 400px; 
+    margin-top: 70px;
+
+    &__ul{
+        list-style: none; 
+        display: flex;
+        flex-direction: row; 
+        color: #cdda60;
+        list-style-type:none; 
+        list-style-position: inherit; 
+    } 
+    &__Item{
+        padding-left: 5px;
+        padding-right: 5px; 
+        list-style:none ; 
+        text-decoration: none; 
+        list-style-type: none;  
+    }
+}   
+
+
+
+// MAINNNNNNN
+.main{
+    padding-top: 10rem;
+}   
+.whatsap{
+    position: fixed;
+    z-index: 11;
+    right: 16px;
+    bottom: 32px; 
+    display: inline-block;
+    background-color: green; 
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+} 
+h2{
+    text-align: center;
+}
+.footer{
+    display: flex;
+    flex-direction: row; 
+    padding: 15px;
+
+} 
+.targets-footer{
+    margin-right: 10px;
+    margin-left: 10px; 
+}  
+
+ul{
+    color: #cdda60;
+    list-style-type:none; 
+    list-style-position: inherit; 
+    margin-left:0%; 
+}  
+a{
+    color: #cdda60;
+    text-decoration: none;
+}
