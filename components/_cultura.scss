@@ -1,19 +1,31 @@
 .divtextosculturaflex{
     display: flex;
     flex-direction: column;
+    padding: 10px; 
+    margin-top: 20px;  
+    justify-content: center; 
+    border-top: 3px;
+    border-bottom: 3px; 
+    border-left: 0px;
+    border-right: 0px; 
+    border-radius: 20px;
+    border-color: #cdda60; 
+    border-style:inset 
 } 
 .divtextoyparrafo{
     display: flex ; 
     flex-direction: row; 
     height: 400px;
-    width: 800px; 
+    width: 100%; 
     align-content: center; 
     align-items: center; 
-    padding: 10px;  
-    justify-content: center;
+    
 } 
 .imageninformativa{ 
-    
+    width: 300px;
+    height: 300px;
+    border-radius: 100%; 
+    object-fit: cover;
 }  
 .imageninformativa__historia{ 
 width: 400px;
@@ -23,7 +35,8 @@ border-radius: 10px;
 
 .parrafoinformativo{  
     margin-top: 0%; 
-    padding-left: 10px;
+    padding-left: 10px; 
+    text-align: center; 
 }
 .titulostextos{
     text-align: center;
