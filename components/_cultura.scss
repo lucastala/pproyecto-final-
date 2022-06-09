@@ -15,7 +15,7 @@
 .divtextoyparrafo{
     display: flex ; 
     flex-direction: row; 
-    height: 400px;
+    height: 300px;
     width: 100%; 
     align-content: center; 
     align-items: center; 
@@ -28,7 +28,7 @@
     object-fit: cover;
 }  
 .imageninformativa__historia{ 
-width: 400px;
+width: 300px;
 height: 350px;
 border-radius: 10px;
 }
@@ -41,4 +41,11 @@ border-radius: 10px;
 .titulostextos{
     text-align: center;
     font-size: 20px; 
+} 
+.tituloadvertencia{
+    color: red;
+    font-size: 15px;
+} 
+.textoadvertencia{
+    color: red;
 }
